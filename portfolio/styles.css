@@ -1,0 +1,116 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #e8ecf5;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+header {
+    background:rgb(126, 126, 245);
+    color: #b29393;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgb(119, 117, 117);
+    background: linear-gradient(to right, #93a3aa, #203f43, #598fa6);
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #6e84be;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #2f0584;
+}
+
+.portfolio {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px gray;
+}
+
+.profile {
+    text-align: center;
+}
+
+.my-photo {
+    width: 180px;
+    height: 189px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px gray;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.my-photo:hover {
+    transform: transform 0.5s ;
+    box-shadow: 0 10px 15px gray;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #4a05f8;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    background: #eef1f7;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #aed0f6;
+}
+
+ul li::before {
+    color: #a48ffc;
+    font-size: 20px;
+}
+
+.contact p {
+    font-size: 15px;
+    color: #4e3737;
+    text-align: center;
+}
+.conntact{
+    text-align: center;
+    text-decoration: underline rgb(177, 91, 177);
+}
+
+
